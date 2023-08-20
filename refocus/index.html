@@ -786,6 +786,12 @@
 			font-size: 1.5em;
 			line-height: 1.6;
 		}
+
+		@media only screen and (max-width: 770px) {
+		.mobile-hidden {
+			display: none;
+		}
+		}
 	</style>
 	<link rel="stylesheet" id="contact-form-7-css"
 		href="./../wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4" type="text/css" media="all">
@@ -941,12 +947,7 @@
 					<li id="menu-item-1150"
 						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1150"
 						style="color:white;padding-bottom:10px;">
-						sales@acceleronlearning.com
-					</li>
-					<li id="menu-item-1150"
-						class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1150"
-						style="color:white">
-						(915) 203-2362
+						<a style="color:white !important" href = "mailto:support@acceleronlearning.com">support@acceleronlearning.com</a>
 					</li>
 				</ul>
 				<ul class="social-icons">
@@ -987,7 +988,7 @@
 						</div>
 						<div id="aq-block-1687-4" class="aq-block aq-block-aq_html_block col-sm-6 aq-first aq-last ">
 							<a href="https://acceleroncom.s3.amazonaws.com/ACCELERON_REFOCUS_ROADMAP.pdf"
-								class="btn btn-primary btn-filled" target="blank">Product Brochure</a>
+								class="btn btn-primary btn-filled" target="_blank">Product Brochure</a>
 						</div>
 					</div>
 				</div>
@@ -1404,7 +1405,7 @@
 										</select>
 									</div>
 
-									<div id="us-map" style="width: 100%; height: 830px;"></div>
+									<div id="us-map" style="width: 100%; height: 830px;" class="mobile-hidden"></div>
 								</div>
 								<div style="clear:both; height: 20px;"></div>
 								<style>
